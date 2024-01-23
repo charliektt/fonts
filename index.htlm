@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de Fuentes</title>
+    <title>Font Generator</title>
     <style>
         body {
             text-align: center;
@@ -15,6 +15,31 @@
             margin: 20px;
             font-size: 1.5em;
         }
+
+        @font-face {
+            font-family: 'Bad Script';
+            src: url(https://drive.google.com/file/d/1UVoGeNoZ57gptHMRxRUwcBkwr3-_NARe/view?usp=drive_link); /* Reemplaza con la URL de tu archivo de fuente */
+        }
+
+        @font-face {
+            font-family: 'Dancing Script';
+            src: url(https://drive.google.com/file/d/1nSYJaquGjKv93jtfo5kV5nivgM66PAxQ/view?usp=drive_link); /* Reemplaza con la URL de tu archivo de fuente */
+        }
+
+        @font-face {
+            font-family: 'Great Vibes';
+            src: url(https://drive.google.com/file/d/1-emZ02UiA7ihwaY9SZXySSpfXvKngsxl/view?usp=drive_link); /* Reemplaza con la URL de tu archivo de fuente */
+        }
+
+        @font-face {
+            font-family: 'Homemade Apple';
+            src: url(https://drive.google.com/file/d/12tJ_1V8KNUA8LJ_IyP4KKqoLRoSA9Otl/view?usp=drive_link); /* Reemplaza con la URL de tu archivo de fuente */
+        }
+
+        @font-face {
+            font-family: 'Amatic SC';
+            src: url(https://drive.google.com/file/d/1JrpvGNEc3vAgx2CmkQELDggjMZOSaEiC/view?usp=drive_link); /* Reemplaza con la URL de tu archivo de fuente */
+        }
     </style>
 </head>
 <body>
@@ -22,9 +47,6 @@
 
     <label for="fontSelector">Selecciona una fuente:</label>
     <select id="fontSelector" onchange="changeFont()">
-        <option value="Courier New, monospace">Courier New</option>
-        <option value="Verdana, sans-serif">Verdana</option>
-        <option value="Georgia, serif">Georgia</option>
         <option value="'Bad Script', cursive">Bad Script</option>
         <option value="'Dancing Script', cursive">Dancing Script</option>
         <option value="'Great Vibes', cursive">Great Vibes</option>
@@ -47,4 +69,3 @@
     </script>
 </body>
 </html>
-
