@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Fuentes</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #fontSelector {
+            margin: 20px;
+        }
+        #outputText {
+            margin: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Fuentes</h1>
+
+    <label for="fontSelector">Selecciona una fuente:</label>
+    <select id="fontSelector" onchange="changeFont()">
+        <option value="Courier New, monospace">Courier New</option>
+        <option value="Verdana, sans-serif">Verdana</option>
+        <option value="Georgia, serif">Georgia</option>
+        <option value="'Bad Script', cursive">Bad Script</option>
+        <option value="'Dancing Script', cursive">Dancing Script</option>
+        <option value="'Great Vibes', cursive">Great Vibes</option>
+        <option value="'Homemade Apple', cursive">Homemade Apple</option>
+        <option value="'Amatic SC', cursive">Amatic SC</option>
+    </select>
+
+    <div id="outputText">
+        <p id="textToChange">Texto de ejemplo</p>
+    </div>
+
+    <script>
+        function changeFont() {
+            var fontSelector = document.getElementById("fontSelector");
+            var selectedFont = fontSelector.value;
+            var textToChange = document.getElementById("textToChange");
+
+            textToChange.style.fontFamily = selectedFont;
+        }
+    </script>
+</body>
+</html>
+
