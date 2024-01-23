@@ -35,28 +35,29 @@
         }
 
         @font-face {
-            font-family: 'Bad Script';
-            src: url(https://github.com/charliektt/generador-de-fuentes/blob/main/BadScript-Regular.ttf); 
-        }
+    font-family: 'Bad Script';
+    src: url(https://raw.githubusercontent.com/charliektt/generador-de-fuentes/main/BadScript-Regular.ttf); 
+}
 
-        @font-face {
-            font-family: 'Dancing Script';
-            src: url(https://github.com/charliektt/generador-de-fuentes/blob/main/DancingScript-Regular.ttf); 
-        }
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(https://raw.githubusercontent.com/charliektt/generador-de-fuentes/main/DancingScript-Regular.ttf); 
+}
 
-        @font-face {
-            font-family: 'Great Vibes';
-            src: url(https://github.com/charliektt/generador-de-fuentes/blob/main/GreatVibes-Regular.ttf);
-        }
+@font-face {
+    font-family: 'Great Vibes';
+    src: url(https://raw.githubusercontent.com/charliektt/generador-de-fuentes/main/GreatVibes-Regular.ttf);
+}
 
-        @font-face {
-            font-family: 'Homemade Apple';
-            src: url(https://github.com/charliektt/generador-de-fuentes/blob/main/HomemadeApple-Regular.ttf); 
-        }
+@font-face {
+    font-family: 'Homemade Apple';
+    src: url(https://raw.githubusercontent.com/charliektt/generador-de-fuentes/main/HomemadeApple-Regular.ttf); 
+}
 
-        @font-face {
-            font-family: 'Amatic SC';
-            src: url(https://github.com/charliektt/generador-de-fuentes/blob/main/AmaticSC-Regular.ttf); 
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(https://raw.githubusercontent.com/charliektt/generador-de-fuentes/main/AmaticSC-Regular.ttf); 
+}
     </style>
 </head>
 <body>
